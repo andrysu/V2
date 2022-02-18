@@ -59,15 +59,15 @@ const simple = require('./F3/simple.js')
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 
-let botname = 'Kunz Botz' //NAMA BOT
+let botname = 'ᴀɴᴅʀʏ ʙᴏᴢᴛ' //NAMA BOT
 let zerokey =  'ZeroYT7' //BIARIN AE:V
 let lolkey = 'KurrXd' // FREE APIKEY NYOLONG DARI KURR:v
 let zekskey = 'Nekonimastah' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = 'KunzxD' //NAMA OWNER
-let owner = '6287778886786' // NOMOR OWNER
+let ownername = 'Andry' //NAMA OWNER
+let owner = '6285894148101' // NOMOR OWNER
 let bold = '*' 
 let petik = '```'
-let faketeks = `_Neo Bot By KunzxD_` 
+let faketeks = `_ᴀɴᴅʀʏ ʙᴏᴢᴛ By ᴀɴᴅʀʏ_` 
 
 banChats = true; 
 readGc = true; 
@@ -114,8 +114,8 @@ const args = body.trim().split(/ +/).slice(1)
 const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
 const Verived = "0@s.whatsapp.net"
-const zer = "6285157740529@s.whatsapp.net"
-const kuz = "6287778886786@s.whatsapp.net"
+const zer = "6285894148101@s.whatsapp.net"
+const kuz = "6285894148101@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = zeroyt7.user.jid
 const ownerNumber = [`${owner}@s.whatsapp.net`, `6283862323152@s.whatsapp.net`, `6287778886786@s.whatsapp.net`]
@@ -620,7 +620,7 @@ ok = `
 ❱ Nomor : *wa.me/${sender.split("@")[0]}*
 ❱ Status : *${isOwner ? 'Owner' :  'User'}*
 
-《NEO BOT INFO》
+《ANDRY BOT INFO》
 ❱ Bot Name : *${botname}*
 ❱ Name : *${ownername}*
 ❱ Prefix : 「${prefix}」
@@ -640,7 +640,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 timestamp = speed();
 latensi = speed() - timestamp;
-ok = `《NEO BOT INFO》
+ok = `《ANDRY BOT INFO》
 ❱ *Bot Name* : *${botname}*
 ❱ *Name* : *${ownername}*
 ❱ *Prefix* : 「${prefix}」
@@ -741,7 +741,7 @@ anu = `*GROUP MENU*
 к⃟●❱${prefix}resetlink
 к⃟●❱${prefix}jadian
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'stickermenu': 
@@ -758,7 +758,7 @@ anu = `*STICKER MENU*
 к⃟●❱${prefix}anime
 к⃟●❱${prefix}gawgura
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'convertmenu': 
@@ -774,7 +774,7 @@ anu = `*CONVERT MENU*
 к⃟●❱${prefix}shorturl
 к⃟●❱${prefix}cuttly
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'randommenu': 
@@ -787,7 +787,7 @@ anu = `*RANDOM MENU*
 к⃟●❱${prefix}memeindo
 к⃟●❱${prefix}darkjoke
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'downloadmenu': 
@@ -801,7 +801,7 @@ anu = `*DOWNLOAD MENU*
 к⃟●❱${prefix}tiktokmusic
 к⃟●❱${prefix}pinterest
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'islammenu': 
@@ -817,7 +817,7 @@ anu = `*ISLAM MENU*
 к⃟●❱${prefix}kisahnabi
 к⃟●❱${prefix}listsurah
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'animemenu': 
@@ -834,7 +834,7 @@ anu = `*ANIME MENU*
 к⃟●❱${prefix}nhentaisearch
 к⃟●❱${prefix}nekopoisearch
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'infomenu': 
@@ -853,7 +853,7 @@ anu = `*INFO MENU*
 к⃟●❱${prefix}wikipedia
 к⃟●❱${prefix}jarak
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'randomtextmenu': 
@@ -871,7 +871,7 @@ anu = `*RANDOM TEXT MENU*
 к⃟●❱${prefix}nicknamepubg
 к⃟●❱${prefix}nicknameml
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'searchmenu': 
@@ -884,7 +884,7 @@ anu = `*SEARCH MENU*
 к⃟●❱${prefix}shopee
 к⃟●❱${prefix}google
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'kerangmenu': 
@@ -906,7 +906,7 @@ anu = `*KERANG MENU*
 к⃟●❱${prefix}rate
 к⃟●❱${prefix}hobby
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'gamemenu': 
@@ -929,7 +929,7 @@ anu = `*GAME MENU*
 к⃟●❱${prefix}suit
 к⃟●❱${prefix}slot
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'stalkingmenu': 
@@ -942,7 +942,7 @@ anu = `*STALK MENU*
 к⃟●❱${prefix}stalkgithub
 к⃟●❱${prefix}stalktiktok
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'asupanmenu': 
@@ -957,7 +957,7 @@ anu = `*ASUPAN MENU*
 к⃟●❱${prefix}asupanghea
 к⃟●❱${prefix}asupanrika
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'cecanmenu': case 'cewemenu': 
@@ -972,7 +972,7 @@ anu = `*CECAN MENU*
 к⃟●❱${prefix}cecanjapan
 к⃟●❱${prefix}cecanthailand
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'textpromenu': 
@@ -1014,7 +1014,7 @@ anu = `*TEXT PRO MENU*
 к⃟●❱${prefix}horroblod 
 к⃟●❱${prefix}thunder 
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'ephotomenu': 
@@ -1053,7 +1053,7 @@ anu = `*EPHOTO MENU*
 к⃟●❱${prefix}silverplaybutton
 к⃟●❱${prefix}freefire
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'bokepmenu': 
@@ -1071,7 +1071,7 @@ anu = `*BOKEP MENU*
 к⃟●❱${prefix}bokep9
 к⃟●❱${prefix}bokep10
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'storagemenu': 
@@ -1094,7 +1094,7 @@ anu = `*STORAGE MENU*
 к⃟●❱${prefix}sound4
 к⃟●❱${prefix}sound5
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'randomimagemenu': 
@@ -1134,7 +1134,7 @@ anu = `*RANDOM IMAGE MENU*
 к⃟●❱${prefix}biganimetiddies
 к⃟●❱${prefix}hentai4everyone
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'ownermenu': 
@@ -1176,7 +1176,7 @@ anu = `*WAR MENU*
 к⃟●❱${prefix}bugpc
 к⃟●❱${prefix}bugtroli2
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'baileysmenu': 
@@ -1189,7 +1189,7 @@ anu = `*BAILEYS MENU*
 к⃟●❱${prefix}jadibot
 к⃟●❱${prefix}stopjadibot
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'othermenu': 
@@ -1209,17 +1209,17 @@ anu = `*OTHER MENU*
 к⃟●❱${prefix}listpremium
 к⃟●❱${prefix}nulis
 
-*BY KUNZXD*`
+*BY ANDRY*`
 reply(anu)
 break
 case 'pdf': 
 if (isBanned) return reply(mess.Ban) 
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
-otod = "6287778886786@s.whatsapp.net"
+otod = "6285894148101@s.whatsapp.net"
 dtod = `${sender}`
 uwu = '```'
-tescok = `*Fake Doc By KunzxD*`
-Sendbutdocument(from, tescok, "KunzX", fs.readFileSync('./F4/KunzX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`KunzX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'KunzX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9WgXcQ`}}})
+tescok = `*Fake Doc By ANDRY*`
+Sendbutdocument(from, tescok, "ᴀɴᴅʀʏ ʙᴏᴢᴛ", fs.readFileSync('./F4/KunzX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`KunzX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'KunzX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9WgXcQ`}}})
 break
 
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
@@ -3559,19 +3559,18 @@ teksnya = `┏━━⬣ PRICE LIST 1
 ┗━━⬣
 
 ┏━━⬣ MINAT? PM
-┃⬡ wa.me/6287778886786
-┃⬡ Ig @kunz.store
+┃⬡ wa.me/6285894148101
+┃⬡ fb @Andry(Yagesya)
 ┗━━⬣`
 but = but = [{ buttonId: `${prefix}gopay`, buttonText: { displayText: 'Gopay' }, type: 1 },{ buttonId: `${prefix}dana`, buttonText: { displayText: 'Dana' }, type: 1 },{ buttonId: `${prefix}allpay`, buttonText: { displayText: 'All Pay' }, type: 1 }]
-ok = `Neo Bot By KunzxD`
+ok = `ᴀɴᴅʀʏ ʙᴏᴢᴛ By ᴀɴᴅʀʏ`
 sendButLoc(from, lolot, ok, img, but)
 break
 case 'muridbot': 
 if (isBanned) return reply(mess.Ban) 
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
-katalog(`Open Murid Bot By KunzxD
 
-Harga Join : 15K
+Harga Join : 
 Diajarin Sampe Bisa
 Boleh Tanya
 Cara Ganti Noowner
@@ -3580,7 +3579,6 @@ Dll
 Pay : Gopay/Dana/Allpay
 
 Minat?
-wa.me/6287778886786 (Kunz)`)
 break
 case 'script': 
 case 'sc': 
@@ -3589,13 +3587,13 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 anu =`╭─❒ SCRIPT
 │◦➛Base : ZeroYT7
-│◦➛Recode : KunzxD
+│◦➛Recode : Andry
 │
 └──────[ GITHUB ]──────❒
   │◦➛Script Ory :
   │◦➛https://github.com/Zero-YT7/Base-ZeroYT7
   │◦➛Script Recode : 
-  │◦➛https://github.com/KxD/NeoBot
+  │◦➛https://github.com/andrysu
   └──────────────────❒`
 fakeyt(anu)
 break
@@ -3608,7 +3606,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 gipay = fs.readFileSync('./F4/gopay.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `ᴀɴᴅʀʏ ʙᴏᴢᴛ By ᴀɴᴅʀʏ`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, gipay, but)
 break
@@ -3618,7 +3616,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 donat = fs.readFileSync('./F4/dana.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `ᴀɴᴅʀʏ ʙᴏᴢᴛ By ᴀɴᴅʀʏ`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, donat, but)
 break
@@ -3628,7 +3626,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 qrall = fs.readFileSync('./F4/allpay.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `ᴀɴᴅʀʏ ʙᴏᴢᴛ By ᴀɴᴅʀʏ`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, qrall, but)
 break
